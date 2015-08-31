@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-date-picker/android-date-picker.iml" filepath="$PROJECT_DIR$/android-date-picker/android-date-picker.iml" />
       <module fileurl="file://$PROJECT_DIR$/datepicker.iml" filepath="$PROJECT_DIR$/datepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/example.iml" filepath="$PROJECT_DIR$/app/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>

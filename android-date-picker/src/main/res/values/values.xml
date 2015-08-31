@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calendar_default_text_size">16dp</dimen>
+    <dimen name="calendar_default_cell_padding">5dp</dimen>
+    <color name="calendar_default_text_color">#000</color>
+    <color name="calendar_default_inactive_text_color">#555</color>
+    <color name="calendar_default_selection_text_color">#000</color>
+    <color name="calendar_default_cell_background_color">#0000</color>
+    <color name="calendar_default_cell_selection_background_color">#87bbff</color>
+    <dimen name="calendar_default_cell_background_padding">1dp</dimen>
+
+    <color name="datetimepicker_separator_color">#4b4848</color>
+</resources>

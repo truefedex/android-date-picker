@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/truefedex/android-date-picker'
     gitUrl = 'https://github.com/truefedex/android-date-picker.git'
 
-    libraryVersion = '0.1.1'
+    libraryVersion = '0.1.2'
 
     developerId = 'truefedex'
     developerName = 'Pheodor Tsapana'
