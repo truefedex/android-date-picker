@@ -8,7 +8,7 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Select Date"
         android:id="@+id/button"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

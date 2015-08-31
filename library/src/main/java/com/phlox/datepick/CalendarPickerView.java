@@ -47,6 +47,14 @@ public class CalendarPickerView extends FrameLayout{
         updateCaption();
     }
 
+    public void setListener(CalendarNumbersView.DateSelectionListener listener) {
+        calendar.setListener(listener);
+    }
+
+    public CalendarNumbersView.DateSelectionListener getListener() {
+        return calendar.getListener();
+    }
+
     private void updateCaption() {
         SimpleDateFormat format = new SimpleDateFormat("MMMM yyyy", Locale.getDefault());
         tvCalendarCaption.setText(format.format(calendar.getShownMonth().getTime()));

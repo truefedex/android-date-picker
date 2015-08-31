@@ -1,7 +1,0 @@
--classpath 'D:\\Libs\\android-sdk-windows\\platforms\\android-22\\android.jar'
--d 'D:\\Projects\\NewAndroid\\datepicker\\library\\build\\docs\\javadoc'
--doctitle 'library 0.1.1 API'
--quiet 
--windowtitle 'library 0.1.1 API'
-'D:\\Projects\\NewAndroid\\datepicker\\library\\src\\main\\java\\com\\phlox\\datepick\\CalendarNumbersView.java'
-'D:\\Projects\\NewAndroid\\datepicker\\library\\src\\main\\java\\com\\phlox\\datepick\\CalendarPickerView.java'
