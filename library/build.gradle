@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'android-date-picker'
+
+    publishedGroupId = 'com.phlox.widget'
+    libraryName = 'Android Date Picker'
+    artifact = 'android-date-picker'
+
+    libraryDescription = 'Simple Date Picker widget for Android'
+
+    siteUrl = 'https://github.com/truefedex/android-date-picker'
+    gitUrl = 'https://github.com/truefedex/android-date-picker.git'
+
+    libraryVersion = '0.1.1'
+
+    developerId = 'truefedex'
+    developerName = 'Pheodor Tsapana'
+    developerEmail = 'truefedex@gmail.com'
+
+    licenseName = 'BSD 2-Clause'
+    licenseUrl = 'http://opensource.org/licenses/BSD-2-Clause'
+    allLicenses = ["BSD 2-Clause"]
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+apply from: '../installv1.gradle'
+apply from: '../bintrayv1.gradle'
