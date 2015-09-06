@@ -13,5 +13,4 @@ android:
     - android-21
 	
 before_script:
-  - echo "Travis branch is $TRAVIS_BRANCH"
   - chmod +x gradlew
