@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/truefedex/android-date-picker'
     gitUrl = 'https://github.com/truefedex/android-date-picker.git'
 
-    libraryVersion = '0.1.2'
+    libraryVersion = '0.2.0'
 
     developerId = 'truefedex'
     developerName = 'Pheodor Tsapana'
@@ -29,10 +29,10 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 22
         versionCode 1
-        versionName "1.0"
+        versionName "0.2.0"
     }
     buildTypes {
         release {

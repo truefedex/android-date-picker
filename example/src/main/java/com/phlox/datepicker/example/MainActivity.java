@@ -50,7 +50,12 @@ public class MainActivity extends Activity {
         @Override
         public void onDateSelected(Calendar selectedDate) {
             if (calendarPopup.isShowing()) {
-                calendarPopup.dismiss();
+                calendarPopup.getContentView().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        calendarPopup.dismiss();
+                    }
+                }, 500);//For clarity, we close the popup not immediately.
             }
             SimpleDateFormat formatter = new SimpleDateFormat("dd MMMM yyyy");
             button.setText(formatter.format(selectedDate.getTime()));

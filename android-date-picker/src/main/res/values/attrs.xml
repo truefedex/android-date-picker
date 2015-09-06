@@ -6,5 +6,9 @@
         <attr name="inactiveTextColor" format="color" />
         <attr name="selectionBgColor" format="color" />
         <attr name="selectionTextColor" format="color" />
+        <attr name="cellBackgroundColor" format="color" />
+        <attr name="cellSelectionBackgroundColor" format="color" />
+        <attr name="cellDayNamesCellBackgroundColor" format="color" />
+        <attr name="cellDayNamesCellTextColor" format="color" />
     </declare-styleable>
 </resources>
