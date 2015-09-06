@@ -4,7 +4,6 @@
         <attr name="cellPadding" format="dimension" />
         <attr name="textColor" format="color" />
         <attr name="inactiveTextColor" format="color" />
-        <attr name="selectionBgColor" format="color" />
         <attr name="selectionTextColor" format="color" />
         <attr name="cellBackgroundColor" format="color" />
         <attr name="cellSelectionBackgroundColor" format="color" />

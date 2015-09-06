@@ -60,6 +60,10 @@ public class CalendarPickerView extends FrameLayout{
         tvCalendarCaption.setText(format.format(calendar.getShownMonth().getTime()));
     }
 
+    public CalendarNumbersView getCalendar() {
+        return calendar;
+    }
+
     private OnClickListener onPrevMonthClickListener = new OnClickListener() {
         @Override
         public void onClick(View v) {
